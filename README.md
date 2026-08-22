@@ -102,4 +102,4 @@ Consulte a página original para conhecer os termos aplicáveis à reutilizaçã
 
 ## Equipe
 
-Projeto acadêmico desenvolvido pelo **Squad-01**.
+Projeto acadêmico desenvolvido por **Eraldo Cassimiro**.
