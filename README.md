@@ -10,7 +10,6 @@ Projeto de análise exploratória de dados desenvolvido no Bootcamp de Ciência 
 
 ## Etapas do projeto
 
-- **Entrega #00 — Identidade da equipe:** definição do nome e da identidade visual do Squad-01.
 - **Entrega #01 — Análise exploratória de dados:** concluída e disponível neste repositório.
 - **Entrega #02 — Análise comparativa de modelos:** próxima etapa, que incluirá pré-processamento, validação, modelagem, comparação e discussão dos resultados.
 
@@ -99,7 +98,5 @@ df = pd.read_csv("Sleep_Efficiency.csv")
 O conjunto de dados utilizado é o [Sleep Efficiency Dataset, disponibilizado no Kaggle](https://www.kaggle.com/datasets/equilibriumm/sleep-efficiency). Os dados são mantidos sem alterações no arquivo CSV; as conversões e os tratamentos necessários são documentados no notebook.
 
 Consulte a página original para conhecer os termos aplicáveis à reutilização do conjunto de dados.
-
-## Equipe
 
 Projeto acadêmico desenvolvido por **Eraldo Cassimiro**.
