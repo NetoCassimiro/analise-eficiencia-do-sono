@@ -10,7 +10,7 @@ Projeto de análise exploratória de dados desenvolvido no Bootcamp de Ciência 
 
 ## Etapas do projeto
 
-- **Entrega #00 — Identidade da equipe:** definição do nome e da identidade visual do Squad-01.
+- **Entrega #00 — Identidade da equipe/autor:** definição do nome e da identidade visual do Squad-01.
 - **Entrega #01 — Análise exploratória de dados:** concluída e disponível neste repositório.
 - **Entrega #02 — Análise comparativa de modelos:** próxima etapa, que incluirá pré-processamento, validação, modelagem, comparação e discussão dos resultados.
 
