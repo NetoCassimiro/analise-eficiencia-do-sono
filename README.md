@@ -24,12 +24,15 @@ O conjunto de dados possui **452 registros e 15 variáveis**, abrangendo:
 - número de despertares;
 - hábitos como exercícios, tabagismo e consumo registrado de cafeína e álcool.
 
-A análise foi organizada em quatro etapas:
+A análise exploratória foi organizada em quatro etapas:
 
 1. descrição, qualidade e tratamento dos dados;
 2. análise univariada das variáveis quantitativas, qualitativas e temporais;
 3. análise bivariada, correlações e comparações por grupos;
 4. análise multivariada de hábitos e características do sono.
+
+Na etapa de modelagem, foram comparados o DummyRegressor, a Regressão Linear, o kNN, o SVR e o Random Forest por meio de validação cruzada k-fold com cinco divisões.
+
 
 ## Principais resultados
 
@@ -49,12 +52,14 @@ A análise foi organizada em quatro etapas:
 - Python
 - Pandas e NumPy
 - Matplotlib e Seaborn
-- limpeza e validação de dados
-- tratamento de datas e horários
-- estatística descritiva
-- visualização de dados
-- correlação de Pearson
-- análises univariada, bivariada e multivariada
+- Scikit-learn
+- limpeza, validação e preparação de dados
+- análise exploratória e visualização de dados
+- pipelines de pré-processamento
+- regressão e Machine Learning
+- validação cruzada k-fold
+- avaliação com MAE, RMSE e R²
+- análise de resíduos
 - comunicação de resultados e limitações
 
 ## Estrutura do repositório
@@ -74,9 +79,11 @@ A análise foi organizada em quatro etapas:
 
 ### Google Colab
 
-1. Abra o notebook pelo botão do Google Colab no início deste README.
-2. Execute as células em ordem.
-3. Quando a célula de upload for executada, selecione o arquivo `Sleep_Efficiency.csv`.
+1. Abra a **Entrega #01** pelo botão **Abrir EDA no Colab**, disponível no início deste README.
+2. Execute as células em ordem e selecione o arquivo `Sleep_Efficiency.csv` quando solicitado.
+3. Depois, abra a **Entrega #02** pelo botão **Abrir Modelos no Colab**.
+4. Execute novamente as células em ordem e selecione o arquivo `Sleep_Efficiency.csv` quando solicitado.
+
 
 ### Ambiente local
 
@@ -93,7 +100,8 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-O notebook foi preparado para execução no Google Colab. Em um ambiente Jupyter local, substitua a célula de upload por:
+Os notebooks foram preparados para execução no Google Colab. Em um ambiente Jupyter local, substitua as células de upload pela leitura direta do arquivo:
+
 
 ```python
 df = pd.read_csv("Sleep_Efficiency.csv")
@@ -101,7 +109,7 @@ df = pd.read_csv("Sleep_Efficiency.csv")
 
 ## Dados
 
-O conjunto de dados utilizado é o [Sleep Efficiency Dataset, disponibilizado no Kaggle](https://www.kaggle.com/datasets/equilibriumm/sleep-efficiency). Os dados são mantidos sem alterações no arquivo CSV; as conversões e os tratamentos necessários são documentados no notebook.
+O conjunto de dados utilizado é o [Sleep Efficiency Dataset, disponibilizado no Kaggle](https://www.kaggle.com/datasets/equilibriumm/sleep-efficiency). Os dados são mantidos sem alterações no arquivo CSV; as conversões e os tratamentos necessários são documentados nos notebooks.
 
 Consulte a página original para conhecer os termos aplicáveis à reutilização do conjunto de dados.
 
