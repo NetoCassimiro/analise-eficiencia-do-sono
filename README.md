@@ -5,6 +5,7 @@
 [![Abrir EDA no Colab](https://img.shields.io/badge/Abrir%20EDA-Google%20Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/NetoCassimiro/analise-eficiencia-do-sono/blob/main/An%C3%A1lise%20Explorat%C3%B3ria%20de%20Dados.ipynb)
 
 [![Abrir Modelos no Colab](https://img.shields.io/badge/Abrir%20Modelos-Google%20Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/NetoCassimiro/analise-eficiencia-do-sono/blob/main/An%C3%A1lise%20Comparativa%20de%20Modelos.ipynb)
+
 Projeto autoral de Ciência de Dados desenvolvido durante o Bootcamp de Ciência de Dados da Atlântico Avanti. O trabalho abrange análise exploratória, preparação dos dados e comparação de modelos de regressão para investigar fatores associados e estimar a eficiência do sono.
 
 > Os resultados representam associações observadas na amostra e não permitem estabelecer relações de causa e efeito.
